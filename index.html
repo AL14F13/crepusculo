@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <script src="phonegap.js" type="text/javascript"></script> <!--para subirlo a la nube se descomenta esta linea-->
+ </head>
+
+ <body>
+ 
+ 
+
+<!-- BIENVENIDA -->
+
+<div data-role="page" id="bienvenida" >   
+  <div data-role="header">
+    <h1>BIENVENIDOS</h1>
+  </div>
+    
+   <div data-role="panel" id="panel_saga" data-position="left" data-display="overlay" data-theme="a">
+   
+   <div style="width:75%";>
+    <div align="center"><a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">CERRAR</a> 
+    
+  <a href="#crepusculo" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">CREPUSCULO</a> 
+          
+  <a href="#luna_nueva" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">LUNA NUEVA</a> 
+      
+  <a href="#eclipce" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">ECLIPCE</a> 
+       
+  <a href="#amanecer_parte1" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">AMANECER PARTE 1</a> 
+      
+
+  <a href="#amanecer_parte2" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">AMANECER PARTE 2</a>      
+    
+     </div>
+   </div>
+  </div><!-- /panel_saga -->
+<!-- /BIENVENIDA-->
+    
+
+  <div data-role="main" class="ui-content">
+    <div align="center">
+      <p>TWILIGHT SAGA</p>
+     <a href="#panel_saga"  id="btnsaga" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">SAGA</a>
+    </div>   
+  </div>
+
+  <div data-role="footer">
+    <h1>@Neofita</h1>
+  </div>
+ </div>  
+<!--/BIENVENIDA -->
+
+
+<!-- CREPUSCULO -->
+<div data-role="page" id="crepusculo" >   
+  <div data-role="header">
+    <h1>CREPUSCULO</h1>
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+   <a href="#historia_crepusculo" id="btnimagenes" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">HISTORIA</a>
+   <a href="#imagenes_crepusculo" id="btnfotogaleria" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">FOTOGALERIA</a>
+   <a href="#personajes_crepusculo" id="btnimagenes" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">PERSONAJES</a> 
+   <a href="#musica_crepusculo" id="btnmusica" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">MÚSICA</a> 
+  </div>
+
+  <div data-role="footer" align="center">
+   <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+  </div>
+  
+</div>  
+<!-- /CREPUSCULO  -->
+
+
+
+<!-- HISTORIA_CREPUSCULO -->
+ <div data-role="page" id="historia_crepusculo" >   
+  <div data-role="header">
+    <h1>Introduccion de la novela</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="center">
+    
+    
+Crepúsculo (Twilight) es una novela romántica de vampiros dirigida al público adolescente, escrita por Stephenie Meyer y publicada en 2005. Es la primera parte de una serie de cuatro libros, de la que están publicados, además de Crepúsculo, Luna nueva, Eclipse, y Amanecer. Sol de medianoche es un proyecto aparte, sin finalizar, en el que Stephenie lleva trabajando desde hace tiempo; en el cuál se repite la historia de Crepúsculo pero narrada porEdward Cullen, éste proyecto ha sido suspendido indefinidamente por la autora, debido a la distribución ilegal de los primeros 12 capítulos
+
+Argumento
+Crepúsculo (Twilight) es una novela romántica de vampiros dirigida al público adolescente, escrita por Stephenie Meyer y publicada en 2005. Es la primera parte de una serie de cuatro libros, de la que están publicados, además de Crepúsculo, Luna nueva, Eclipse, y Amanecer. La protagonista de la historia es Isabella Marie Swan, una joven de diecisiete años que se muda a Forks, Washington, después de que su madre se vuelve a casar con Phil, jugador de beisbol, que es su nuevo padrastro; y debido al trabajo de éste viaja constantemente, por lo cual Bella decide vivir con Charlie, su padre, para que así su madre pueda viajar al lado de Phil. En el colegio conoce a Eric, Mike, Tyler, Jessica, y Angela, que se convierten en sus nuevos amigos. En su primer día de clases Bella ve a cinco estudiantes que le llaman la atención por su belleza y su palidez. Se sientan alejados de todo el mundo, no tienen apenas relación con el resto de estudiantes. Son los hermanos Cullen: Edward, Emmett, Jasper, Alice y Rosalie.
+
+El libro trata el peligroso amor que surje entre Bella y Edward, ambos de mundos distintos, pues la familia Cullen son vampiros.
+
+     </p>
+  </div>
+
+  <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#crepusculo" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+     </div>
+    </div>
+  </div><!-- /HISTORIA_CREPUSCULO -->
+
+
+<!-- PERSONAJES CREPUSCULO -->
+ <div data-role="page" id="personajes_crepusculo" >   
+  <div data-role="header">
+    <h1>PERSONAJES</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <h1>1. Edward Cullen - Robert Pattinson</h1>
+    <h1>2. Alice Cullen - Ashley Greene</h1>
+    <h1>3. Jacob Black - Taylor Lautner</h1>
+    <h1>4. Isabella ''Bella'' Swan - Kristen Stewart</h1>
+    <h1>5. Renesmee Cullen - Mackenzie Foy</h1>
+    <h1>6. Carlisle Cullen - Peter Facinelli</h1>
+    <h1></h1>
+    <h1> </h1>
+  </div>
+
+ <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#crepusculo" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+      </div>
+    </div>
+  </div>
+<!-- /PERSONAJES CREPUSCULO-->
+
+<!-- MÚSICA CREPUSCULO -->
+ <div data-role="page" id="musica_crepusculo" >   
+  <div data-role="header">
+    <h1>MÚSICA</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+     <audio controls>
+  <source src="Musica/Claro de luna.mp3" type="audio/ogg">  
+    </audio> 
+  </div>
+
+  <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#crepusculo" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+     </div>
+    </div>
+  </div>
+<!-- /MUSICA CREPUSCULO-->
+
+ 
+<!-- FOTOGALERIA_CREPUSCULO -->
+ <div data-role="page" id="imagenes_crepusculo" >   
+  <div data-role="header">
+    <h1>FOTOGALERIA</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+     <a href="#crepusculo_1" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="Imagenes_Saga/crepusculo.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="crepusculo_1" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="Imagenes_Saga/crepusculo.jpg" style="max-height:1000px">
+     </div>
+         
+    </div>
+  </div>
+ 
+  <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#crepusculo" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+     
+    </div>
+  </div>
+ </div>  
+<!-- /FOTOGALERIA_CREPUSCULO -->
+
+
+<!-- LUNA NUEVA   LUNA NUEVA   LUNA NUEVA  LUNA NUEVA  LUNA NUEVA  LUNA NUEVA  LUNA NUEVA  LUNA NUEVA  LUNA NUEVA -->
+<div data-role="page" id="luna_nueva" >   
+  <div data-role="header">
+    <h1>LUNA NUEVA</h1>
+  </div>
+   
+   <div data-role="main" class="ui-content" align="center">
+   
+    <a href="#historia_luna_nueva" id="btnimagenes" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">HISTORIA</a>
+    <a href="#fotogaleria_luna_nueva" id="btnfotogaleria" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">FOTOGALERIA</a>
+    
+    <a href="#personajes_luna_nueva" id="btnimagenes" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">PERSONAJES</a> 
+    <a href="#musica_luna_nueva" id="btnmusica" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">MÚSICA</a> 
+  </div>
+    
+  <div data-role="footer" align="center">
+   <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+  </div>
+ 
+  
+</div>
+<!-- /LUNA NUEVA  -->
+
+<!-- HISTORIA_LUNA_NUEVA -->
+ <div data-role="page" id="historia_luna_nueva" >   
+  <div data-role="header">
+    <h1>INTRODUCCIÓN A LUNA NUEVA</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="center">
+El libro comienza en el cumpleaños número 18 de Isabella "Bella" Swan, Edward Cullen, el vampiro que ama, y su familia, los Cullen le organizan una fiesta de cumpleaños. Pero mientras desenvolvía un regalo, Bella se corta con el papel, lo que provoca que el hermano de Edward, Jasper, se sienta abrumado por el olor de su sangre y trate de matar a Bella. Entonces Edward se enfrenta con la realidad de que ellos son un inminente peligro para ella por el simple hecho de que ella es humana y que ellos son vampiros. Para protegerla, Edward decide poner fin a su relación, y los Cullen se van lejos de Forks. Esto le rompe el corazón a Bella y cae en una profunda depresión. En los meses que siguen, Bella no pudo lograr salir de su depresión hasta que se enteró de que las actividades peligrosas y con mucha adrenalina, como los deportes extremos, le permiten "escuchar" la voz de Edward en su cabeza. Por lo que se decide a poner su vida en peligro con esas actividades para escuchar su voz, rompiendo la promesa que le había hecho de mantenerse a salvo. Sin querer Bella logra encontrar el consuelo que tanto buscaba en su viejo amigo de la infancia Jacob Black, un compañero alegre que alivia el dolor por haber perdido a Edward y que antes de la partida de los Cullen no había tratado mucho. Con Jacob olvida su dolor por momentos y empieza a salir de la depresión. Bella compra dos motocicletas viejas para ellos dos, pero principalmente para escuchar a Edward. Más tarde Bella comienza a encariñarse mucho con Jacob y éste se comienza a enamorar de ella hasta llegar l momento en que es difícil encontrar los límites de su relación. Después Bella descubre que Jacob y algunos de los miembros de la tribu Quileute asumen formas de lobos gigantescos, licántropos. Jacob y su manada protegen a Bella cuando comienzan a descubrir el gran peligro que la acecha de parte de los vampiros nómadas Laurent y Victoria, vampíros mencionados en el libro anterior, que debido a la confrontación que hubo entre Edward y James, donde éste último terminó muerto, buscan venganza en la “compañera” de Edward para causarle el mismo daño que sufrió Victoria. Mientras tanto, una serie de errores de comunicación llevan a Edward a creer que Bella se ha suicidado. Angustiado por su supuesto suicidio, Edward huye a Italia para provocar a los Vulturi, una especie de realeza entre los vampiros y que son muy poderosos, para que terminen con él y lo asesinen. Alice y Bella van a Italia para salvar a Edward de ellos, y justamente llegan justo a tiempo para detenerlo. Antes de salir de Italia, los Vulturi le advierten a Edward que Bella ya que es una humana que sabe demasiado sobre su existencia, o bien debe matarla o debe ser transformada en un vampiro. Ya en Forks, Edward le da a Bella dos opciones; se deja transformar por Carlisle después de su graduación o, si Bella se compromete a casarse con él, la va a transformar él mismo.
+   </p>
+   
+  </div>
+
+  <div data-role="footer">
+   <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#luna_nueva" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+    </div>
+   </div>
+  </div><!-- /HISTORIA_CREPUSCULO -->
+
+
+ <!-- FOTOGALERIA_LUNA_NUEVA-->
+ 
+ <div data-role="page" id="fotogaleria_luna_nueva" >   
+  <div data-role="header">
+    <h1>FOTOGALERIA LUNA NUEVA</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+     <a href="#luna_nueva1" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="Imagenes_Saga/luna_nueva.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="luna_nueva1" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="Imagenes_Saga/luna_nueva.jpg" style="max-height:1000px">
+     </div>
+    
+    </div>
+  </div>
+ 
+  <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#luna_nueva" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+     
+    </div>
+  </div>
+ </div>  
+<!-- /FOTOGALERIA_LUNA_NUEVA -->
+
+<!-- PERSONAJES LUNA NUEVA -->
+ <div data-role="page" id="personajes_luna_nueva" >   
+  <div data-role="header">
+  <h1> PERSONAJES LUNA NUEVA </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+     <p align="center">
+     
+13. Charlie Swan - Billy Burke
+
+14. Embry Call - Kiowa Gordon
+
+15. Paul Lahote - Alex Meraz
+
+16. Aro - Michael Sheen
+
+
+17. Leah Clearwater - Julia Jones
+
+18. Alec - Cameron Bright
+
+
+19. Victoria - Rachelle Lefevre y Bryce Dallas Howard
+
+
+20. Bree Tanner - Jodelle Ferland.
+     </p>
+    
+  </div>
+
+ <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#luna_nueva" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+      </div>
+    </div>
+  </div>		
+<!-- /PERSONAJES LUNA_NUEVA-->
+
+<!-- MÚSICA LUNA_NUEVA -->
+ <div data-role="page" id="musica_luna_nueva" >   
+  <div data-role="header">
+    <h1>INTRODUCCIÓN</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="center"></p>
+    
+    <audio controls>
+  <source src="Musica/Eyes On Fire.mp3" type="audio/ogg">  
+    </audio>
+    
+  </div>
+
+  <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#luna_nueva" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+     </div>
+    </div>
+  </div>
+<!-- /MUSICA LUNA_NUEVA-->
+
+<!-- ECLIPCE ECLIPCE ECLIPCE  ECLIPCE ECLIPCE ECLIPCE  ECLIPCE  ECLIPCE  ECLIPCE  ECLIPCE  ECLIPCE ECLIPCE -->
+<div data-role="page" id="eclipce" >   
+  <div data-role="header">
+    <h1>ECLIPCE</h1>
+  </div>
+   
+   <div data-role="main" class="ui-content" align="center">
+   
+    <a href="#historia_eclipce" id="btnimagenes" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">HISTORIA</a>
+    <a href="#fotogaleria_eclipce" id="btnfotogaleria" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">FOTOGALERIA</a>
+    
+    <a href="#personajes_eclipce" id="btnimagenes" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">PERSONAJES</a> 
+    <a href="#musica_eclipce" id="btnmusica" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">MÚSICA</a> 
+  </div>
+    
+  <div data-role="footer" align="center">
+   <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+  </div>
+ 
+  
+</div>
+<!-- /ECLIPCE  -->
+
+<!-- HISTORIA_ECLIPCE -->
+ <div data-role="page" id="historia_eclipce" >   
+  <div data-role="header">
+    <h1>INTRODUCCIÓN A ECLIPCE</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="center">
+Sinopsis:
+Todo comienza... con una elección.
+Bella Swan (Kristen Stewart) vuelve a encontrarse rodeada de peligros, mientras Seattle se ve asolada por una oleada de misteriosos asesinatos y una maliciosa vampira prosigue su búsqueda de venganza. En medio de todo eso, Bella se ve obligada a elegir entre su amor por Edward Cullen (Robert Pattinson) y su amistad con Jacob Black (Taylor Lautner), perfectamente consciente de que su decisión tiene muchas posibilidades de exacerbar la eterna rivalidad entre vampiros y hombres lobo. Con su graduación cada vez más próxima, Bella no tiene más remedio que afrontar la decisión más importante de su vida.
+Mientras que la mayoría de sus amigos del instituto están recibiendo cartas de aceptación en las distintas universidades y enviando avisos de graduación, Bella se encuentra tomando una decisión que le permitiría estar con su amado Edward para siempre. Pero le cuesta aceptar la condición impuesta por Edward (debe casarse con él antes de que él acepte ser quien la convierta en vampiro) y las consecuencias que estas elecciones pueden traer para sí misma, su familia y sus amigos.
+Entretanto, se avecina una guerra. Jugando con los puntos ciegos de los dones místicos de la familia Cullen, una fuerza desconocida ha creado un ejército de neófitos, compuesto por vampiros recién transformados, cuyo salvajismo y sed de sangre incontrolable está en su momento álgido en los primeros meses de vida sobrenatural. ¿Son peones de Victoria (Bryce Dallas Howard) en su obsesiva búsqueda de venganza, o de los todopoderosos Vulturis, que pretenden asegurarse de que Bella siga adelante con su intención de hacerse inmortal?
+A medida que el ejército de neófitos, encabezado por Riley (Xavier Samuel), avanza hacia Forks y el territorio de los quileute, los Cullen y la manada de lobos deberán dejar de lado su conflicto instintivo y formar una alianza para proteger a Bella y su comunidad de una amenaza mayor. Mientras se preparan para la batalla, Bella descubre más información sobre la historia secreta de la tribu quileute, la cada vez más numerosa manada de lobos y el pasado de Jasper y de Rosalie. Este conocimiento la ayudará a comprender los vínculos creados entre los lobos, reconocer su amor por Jacob Black y contribuir a la protección de sus seres queridos.
+   </p>   
+  </div>
+
+  <div data-role="footer">
+   <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#eclipce" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+    </div>
+   </div>
+  </div><!-- /ECLIPCE -->
+
+
+ <!-- FOTOGALERIA_ECLIPCE-->
+ 
+ <div data-role="page" id="fotogaleria_eclipce" >   
+  <div data-role="header">
+    <h1>FOTOGALERIA ECLIPCE</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+     <a href="#eclipce_1" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="Imagenes_Saga/fondo_crepusclo.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="luna_nueva1" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="Imagenes_Saga/fondo_crepusclo.jpg" style="max-height:1000px">
+     </div>
+    
+    </div>
+  </div>
+ 
+  <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#eclipce" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+     
+    </div>
+  </div>
+ </div>  
+<!-- /FOTOGALERIA_ECLIPCE -->
+
+<!-- PERSONAJES ECLIPCE -->
+ <div data-role="page" id="personajes_eclipce" >   
+  <div data-role="header">
+  <h1> PERSONAJES ECLIPCE </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+     <p align="center">
+     
+14. Embry Call - Kiowa Gordon
+15. Paul Lahote - Alex Meraz
+
+16. Aro - Michael Sheen
+17. Leah Clearwater - Julia Jones
+
+18. Alec - Cameron Bright
+
+
+19. Victoria - Rachelle Lefevre y Bryce Dallas Howard
+
+20. Bree Tanner - Jodelle Ferland.
+
+
+21. Sam Uley - Chaske Spencer
+22. Emily Young - Tinsel Korey
+
+
+23. Billy Black - Gil Birmingham
+
+
+
+24. Renée Dwyer - Sarah Clarke
+
+
+25. Riley Biers - Xavier Samuel
+     </p>
+    
+  </div>
+
+ <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#eclipce" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+      </div>
+    </div>
+  </div>		
+<!-- /PERSONAJES ECLIPCE-->
+
+<!-- MÚSICA ECLIPCE -->
+ <div data-role="page" id="musica_eclipce" >   
+  <div data-role="header">
+    <h1>MÚSICA ECLIPCE</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="center"></p>
+    
+    <audio controls>
+  <source src="Musica/Fire in the water.mp3" type="audio/ogg">  
+    </audio>
+    
+  </div>
+
+  <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#eclipce" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+     </div>
+    </div>
+  </div>
+<!-- /MUSICA ECLIPCE-->
+<!-- //ECLIPCE ECLIPCE ECLIPCE  ECLIPCE ECLIPCE ECLIPCE  ECLIPCE  ECLIPCE  ECLIPCE  ECLIPCE  ECLIPCE ECLIPCE -->
+
+
+<!--AMANANECER 1   AMANANECER 1  AMANANECER 1  AMANANECER 1  AMANANECER 1  AMANANECER 1  AMANANECER 1  AMANANECER 1 -->
+<div data-role="page" id="amanecer_parte1" >   
+  <div data-role="header">
+    <h1>AMANECER PARTE 1</h1>
+  </div>
+   
+   <div data-role="main" class="ui-content" align="center">
+   
+    <a href="#historia_amanecer_parte1" id="btnimagenes" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">HISTORIA</a>
+    <a href="#fotogaleria_amanecer_parte1" id="btnfotogaleria" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">FOTOGALERIA</a>
+    
+    <a href="#personajes_amanecer_parte1" id="btnimagenes" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">PERSONAJES</a> 
+    <a href="#musica_amanecer_parte1" id="btnmusica" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">MÚSICA</a> 
+  </div>
+    
+  <div data-role="footer" align="center">
+   <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+  </div>
+ 
+  
+</div>
+<!-- /AMANANECER 1 -->
+
+<!-- HISTORIA_AMANANECER 1 -->
+ <div data-role="page" id="historia_amanecer_parte1" >   
+  <div data-role="header">
+    <h1>INTRODUCCIÓN A AMANECER PARTE 1</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="center">
+Crepusculo La Saga: Amanecer Parte 1
+
+Cuando Jacob Black recibe una invitación para la boda de Edward Cullen  y Bella Swan , se disgusta y sale corriendo en su forma licantrópica, mientras su papá Billy Black  lo llama en su regreso. Mientras tanto, Charlie Swan y Reneé Dwyer (padres de bella) leen sus invitaciones y a diferencia de Renee, Charlie no parece estár muy feliz con la boda.
+
+La familia Cullen, están ocupados en la preparación de la boda. Esa noche, Edward advierte a Bella de la consecuencias de ser vampiro, y esa misma noche, sueña su boda con Edward mientras todo se convierte abruptamente en una pesadilla.
+
+Cuando Alice y Rosalie preparan a Bella para caminar por el pasillo, los padres de Bella regalan a su hija un sujetador de pelo. En la recepción de la boda, Bella es presentada con el clan Denali. Uno de los miembros, Irina se disgusta porque ha visto a Seth Clearwater, uno de los miembros de la tribu licantrópica Quileute que mataron a su amigo, Laurent, pero Edward replica que lo neutralizaron debido que quiso matar a Bella. Más tarde, Edward lleva a Bella al encuentro de Jacob Black para su despedida. Sin embargo, Bella menciona accidentalmente que ella planea consumar su amor con Edward en su luna de miel, provocando que Jacob reaccione enfurecido. Antes que ataque a Edward, los Quileute lo retienen y este se aleja decepcionado.
+
+La pareja pasa su luna de miel en una isla privada en Brasil llamada Isla Esme, un regalo de Carlisle a Esme. A pesar de estar indeciso, Edward tiene sexo con Bella por primera vez. Durante el acto, Edward lastima a Bella. Horrorizado por lo que hizo, el admite que no lo hará nuevamente hasta que deje de ser humana. Los recién casados exploran la isla, y durante una noche, Bella insiste tener sexo con Edward y al final logra su objetivo. Al día siguiente, durante el desayuno, Bella se siente enferma y va al baño a vomitar. Bella sospecha de su estado, aseverando que está retrasada. En el momento, siente una patada dentro de su vientre, indicando que está embarazada. Esto fuerza a la pareja regresar a Forks, donde Edward solicita a Carlisle retirar el feto que considera un monstruo. Con un carácter materno, Bella niega abortar, y pide a Rosalie protegerla y a su bebé no-nato.
+
+Jacob se entera del retorno, y visita la casa de los Cullen. Bella había enflaquecido severamente. Jacob se da cuenta que está embarazada, y esta en un proceso muy acelerado, diferente a los nueves meses de embarazo. Enfurecido, protesta por la salud y la seguridad de Bella. En busca de una respuesta de por qué no retiraron el feto, Bella le aclara tajantemente que fue su decisión tener el bebé.
+
+Enterado del embarazo de Bella, Sam Uley, el alfa de los licántropos, planea asesinar a Bella y a su hijo no-nato, creyendo que es un monstruo. Jacob se opone y decide protegerla de ellos. Deja el grupo Quileute, y pronto se unen Seth y Leah Clearwater. Los tres resguardan la casa. Mientras, Bella enflaquece más y se pone peor, Carlisle aclara que el bebé no es compatible con su cuerpo. Sin embargo, Bella acepta las consecuencias, rechazando cualquier alternativa. Bella se disculpa con Edward, y si por un caso muere, le daría una parte de ella. En un arrebato de ira, Edward admite que ella quería esto y no le había dado otra elección.
+
+Después de leer un comentario sarcástico de la mente de Jacob, Edward sugiere a Carlisle que le den sangre de Bella. Para su sorpresa, después de tomarla, ella disfruta el sabor y quiere más. Súbitamente, mejora su salud. Después, Edward se entera de puede leer los pensamientos del bebé y se dan cuenta que no es un monstruo. Esa noche, Bella con Alice y Rosalie, cuenta a Jacob y Edward sobre la elección del nombre, si es un niño le pondran EJ (Edward Jacob) y si nace una mujer, Renesmee. Repentinamente, está en parto y su columna se rompe. Debido a que Carlisle está de caza, Rosalie, Edward, Jacob y Alice son forzados a recibir el bebé. Edward usa sus dientes para hacer cesárea. Al recibir el bebé, la llama Renesmee, afirmando que es una niña. Cuando la condición de Bella se deteriora, Jacob y Edward intentan revivirla. Sin éxito, Edward inyecta su veneno en el corazón de Bella. Sin suceder nada, Jacob sale desesperado y angustiado. Después de llorar, sin pensarlo, regresa a la casa intentando matar a Renesmee, sin embargo Jacob queda inmediatamente imprimado por la bebé.
+
+Paul un miembro de la manada quileute se entera de la muerte de Bella e informa a Sam. Cuando los licántropos intentan irrumpir en la casa, Jacob detiene la batalla diciendo que si la matan, lo matarán a él. Sam no entiende, ataca a Jacob, causando que se transforme en lobo. Edward lee su mente y aclara a todos que Jacob quedó imprimado de Renesmee, y según el código licantrópico, cuando uno lobo se imprima, no pueden dañar a la persona. Sabiendo que no pueden lastimar a Renesmee, Sam y su manada se retiran.
+
+Alice, Carlisle, Edward y Esme están de regreso en la habitación con Bella. Ellos peinan su pelo, la limpian y la visten. Edward está conciente que el veneno no resultó, pero Carlisle asegura que lo está, y el aspecto mortecino se debe a la morfina. Cuando todos dejan la habitación, sigilósamente la transformación de Bella comienza: sus heridas desaparecen, su espina dorsal se endereza y su rostro deja de ser enfermizo y pálido. Empalidece en hermosura, cuando sus labios enrojece y su pelo adquiere un brillante color bronce. La escena final muestra Bella abriendo los ojos revelándolos rojos como la sangre, los ojos de una vampiro neófita.
+En una escena después de los créditos finales, se revela que los Vulturis, liderado por Aro, ha sido informado de la boda de Bella y Edward, y la transformación de Bella en un vampiro. Marcus declara que no tiene más negocios con los Cullen. Sin embargo, Aro discrepa diciendo que los Cullen tienen algo que él quiere.
+
+   </p>   
+  </div>
+
+  <div data-role="footer">
+   <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#amanecer_parte1" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+    </div>
+   </div>
+  </div><!-- /AMANANECER 1 -->
+
+
+ <!-- FOTOGALERIA_AMANANECER 1-->
+ 
+ <div data-role="page" id="fotogaleria_amanecer_parte1" >   
+
+  <div data-role="header">
+    <h1>FOTOGALERIA AMANECER PARTE 1</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+     <a href="#amanecer1" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="Imagenes_Saga/amanecer1.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="amanecer1" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="Imagenes_Saga/amanecer1.jpg" style="max-height:1000px">
+     </div>
+    
+    </div>
+  </div>
+ 
+  <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#amanecer_parte1" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+     
+    </div>
+  </div>
+ </div>  
+<!-- /FOTOGALERIA_AMANANECER 1 -->
+
+<!-- PERSONAJES AMANANECER 1 -->
+ <div data-role="page" id="personajes_amanecer_parte1" >   
+  <div data-role="header">
+  <h1> PERSONAJES AMANECER PARTE 1 </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+     <p align="center">
+     
+
+
+32. Demetri - Charlie Bewley
+33. Quil Ateara - Tyson Houseman
+34. Brady Fuller - Swo-wo Gabriel
+
+35. Felix - Daniel Cudmore
+
+36. Collin Littlesea - Brayden Jimmie
+
+37. Phil Dwyer - Matt Bushell
+
+
+     </p>
+    
+  </div>
+
+ <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#amanecer_parte1" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+      </div>
+    </div>
+  </div>		
+<!-- /PERSONAJES AMANANECER 1-->
+
+<!-- MÚSICA AMANANECER 1-->
+ <div data-role="page" id="musica_amanecer_parte1" >   
+  <div data-role="header">
+    <h1>MÚSICA AMANECER PARTE 1</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="center"></p>
+    
+    <audio controls>
+  <source src="Musica/Fire in the water.mp3" type="audio/ogg">  
+    </audio>
+    
+  </div>
+
+  <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#amanecer_parte1" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+     </div>
+    </div>
+  </div>
+<!-- /MUSICA AMANANECER 1-->
+<!-- //AMANANECER 1 AMANANECER 1 AMANANECER 1 AMANANECER 1 AMANANECER 1 AMANANECER 1 AMANANECER 1 AMANANECER 1 -->
+
+
+
+
+
+<!--AMANECER PARTE 2 AMANECER PARTE 2 AMANECER PARTE 2 AMANECER PARTE 2 AMANECER PARTE 2 AMANECER PARTE 2  -->
+<div data-role="page" id="amanecer_parte2" >   
+  <div data-role="header">
+    <h1>AMANECER PARTE 2</h1>
+  </div>
+   
+   <div data-role="main" class="ui-content" align="center">
+   
+    <a href="#historia_amanecer_parte2" id="btnimagenes" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">HISTORIA</a>
+    <a href="#fotogaleria_amanecer_parte2" id="btnfotogaleria" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">FOTOGALERIA</a>
+    
+    <a href="#personajes_amanecer_parte2" id="btnimagenes" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">PERSONAJES</a> 
+    <a href="#musica_amanecer_parte2" id="btnmusica" class=" ui-btn-icon-right ui-btn ui-icon-arrow-r ">MÚSICA</a> 
+  </div>
+    
+  <div data-role="footer" align="center">
+   <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+  </div>
+ 
+  
+</div>
+<!-- /AMANANECER 2 -->
+
+<!-- HISTORIA_AMANANECER 2 -->
+ <div data-role="page" id="historia_amanecer_parte2" >   
+  <div data-role="header">
+    <h1>INTRODUCCIÓN A AMANECER PARTE 2</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="center">
+
+La película como fenómeno cultural sugiere una lectura mucho más interesante que lo que se ve en pantalla; hay un enorme contraste, todos lo sabemos: la realidad no soportó el artificio del amor entre sus personajes, que la productora insistió en trasladar a la realidad.
+
+No importa si el amor entre Kristen Stewart y Robert Pattinson, sus protagonistas, sea cierto o no, lo único verdadero es que la virtualidad de idealización se quebró cuando se descubrió la infidelidad de la actriz con el director de Blancanieves. Si por algo será recordada la saga es este punto, su visión del amor es corta.
+
+Amanecer Parte 2, dirigida por Bill Condon, es la película que muestra mayor crecimiento en sus actores (Taylor Lautner luce más sereno, a pesar de que su aparición es, desafortunadamente, más discreta), y la que tiene un poco más de equilibrio con el habitual ritmo pausado de las entregas previas.
+
+Se le reprocha lo mismo que a las anteriores cintas, ¿dónde está la contrariedad de los personajes? Humanos, vampiros y lobos siempre están controlados en sus situaciones, hay poca duda, no hay riesgo, el amor parece absoluto e incuestionable, artificial.
+
+Michael Sheen y Dakota Fanning, ambos villanos, aportan algo de frescura al final de Crepúsculo.
+
+Amanecer Parte 2 estará en cines a partir del 16 de noviembre.
+
+   </p>   
+  </div>
+
+  <div data-role="footer">
+   <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#amanecer_parte2" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+    </div>
+   </div>
+  </div><!-- /AMANANECER 2 -->
+
+
+ <!-- FOTOGALERIA_AMANANECER 2-->
+ 
+ <div data-role="page" id="fotogaleria_amanecer_parte2" >   
+
+  <div data-role="header">
+    <h1>FOTOGALERIA AMANECER PARTE 2 </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+     <a href="#amanecer2" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="Imagenes_Saga/luna_nueva2.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="amanecer2" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="Imagenes_Saga/luna_nueva2.jpg" style="max-height:1000px">
+     </div>
+    
+    </div>
+  </div>
+ 
+  <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#amanecer_parte2" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+     
+    </div>
+  </div>
+ </div>  
+<!-- /FOTOGALERIA_AMANANECER 2 -->
+
+<!-- PERSONAJES AMANANECER 2 -->
+ <div data-role="page" id="personajes_amanecer_parte2" >   
+  <div data-role="header">
+  <h1> PERSONAJES AMANECER PARTE 2 </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+     <p align="center">
+     
+
+26. Jared Cameron - Bronson Pelletier
+
+27. James - Cam Gigandet
+
+28. Cayo - Jamie Campbell Bower
+
+29. Eleazar - Christian Camargo
+
+
+30. Marcus - Christopher Heyerdahl
+
+
+31. Laurent - Edi Gathegi
+
+     </p>
+    
+  </div>
+
+ <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#amanecer_parte2" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+      </div>
+    </div>
+  </div>		
+<!-- /PERSONAJES AMANANECER 2-->
+
+<!-- MÚSICA AMANANECER 2-->
+ <div data-role="page" id="musica_amanecer_parte2" >   
+  <div data-role="header">
+    <h1>MÚSICA AMANECER PARTE 2</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="center"></p>
+    
+    <audio controls>
+  <source src="Musica/Flightless bird.mp3" type="audio/ogg">  
+    </audio>
+    
+  </div>
+
+  <div data-role="footer">
+    <h1>@Neofita</h1>
+    <div align="center">
+     <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
+     
+     <a href="#amanecer_parte2" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">REGRESAR</a>
+     </div>
+    </div>
+  </div>
+<!-- /MUSICA AMANANECER 2-->
+<!-- //AMANANECER 2 AMANANECER 2 AMANANECER 2 AMANANECER 2 AMANANECER 2 AMANANECER 2 AMANANECER 2 AMANANECER 2  -->
+
+
+
+
+
+
+
+  
+ </body>
+</html> 
