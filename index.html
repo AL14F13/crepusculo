@@ -10,6 +10,16 @@
   <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
   <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
   <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+  <link rel="stylesheet" href="css/hello2.min.css" />
+  <style type="text/css">
+  #apDiv1 {
+	position: absolute;
+	width: 197px;
+	height: 29px;
+	z-index: 1;
+	visibility: hidden;
+}
+  </style> 
         
         
 
@@ -23,35 +33,32 @@
 
  <body>
  
- 
-
-<!-- BIENVENIDA -->
-
-<div data-role="page" id="bienvenida" >   
+  <!-- Principal -->
+ <div data-role="page" id="bienvenida" >   
   <div data-role="header">
     <h1>BIENVENIDOS</h1>
   </div>
-    
-   <div data-role="panel" id="panel_saga" data-position="left" data-display="overlay" data-theme="a">
-   
-   <div style="width:75%";>
-    <div align="center"><a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">CERRAR</a> 
-    
-  <a href="#crepusculo" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">CREPUSCULO</a> 
-          
-  <a href="#luna_nueva" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">LUNA NUEVA</a> 
-      
-  <a href="#eclipce" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">ECLIPCE</a> 
-       
-  <a href="#amanecer_parte1" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">AMANECER PARTE 1</a> 
-      
 
-  <a href="#amanecer_parte2" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">AMANECER PARTE 2</a>      
-    
-     </div>
+  <div data-role="main" class="ui-content">
+     <div align="center">
+    <div style="width:50%" data-role="controlgroup" data-type="vertical"><a href="#mypanel" id="btnmenu" class="ui-btn"><a href="#mypanel" id="btnmenu2" class="ui-btn">MENU</a></a></div>
+ 
    </div>
-  </div><!-- /panel_saga -->
-<!-- /BIENVENIDA-->
+   <div data-role="panel" id="mypanel" data-display="overlay">
+     <a href="#crepusculo" id="" class="ui-btn">CREPUSCULO</a>
+     <a href="#luna_nueva" id="" class="ui-btn">LUNA NUEVA</a>
+     <a href="#eclipce" id="" class="ui-btn">ECLIPSE</a>
+     <a href="#amanecer_parte1" id="" class="ui-btn">AMANECER PARTE 1</a>
+     <a href="#amanecer_parte2" id="" class="ui-btn">AMANECER PARTE 2</a>
+  
+   </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>@NEOFITA</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
     
 
   <div data-role="main" class="ui-content">
@@ -60,9 +67,13 @@
      <a href="#panel_saga"  id="btnsaga" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">SAGA</a>
     </div>   
   </div>
-
-  <div data-role="footer">
-    <h1>@Neofita</h1>
+  
+  <div id="apDiv1">
+    <embed src="Fire in the water.mp3" width="32" height="32" loop="true"></embed>
+  </div>
+  
+ <div data-role="footer" align="center">
+   <a href="#bienvenida" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">INICIO</a>
   </div>
  </div>  
 <!--/BIENVENIDA -->
